@@ -14,7 +14,7 @@ $ createdb library
 
 Note that this is a command-line utility that ships with Postgres, as an alternate to using the SQL command `CREATE DATABASE library;` inside `psql`.
 
-That means you should run this command from your Bash prompt -- not from inside `psql`.
+That means you should run this command from your Zsh prompt -- not from inside `psql`.
 
 ## Inspecting The Schema
 
