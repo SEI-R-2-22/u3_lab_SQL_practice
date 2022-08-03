@@ -8,7 +8,7 @@
 
 ## Creating Our Database
 
-```bash
+```zsh
 $ createdb library
 ```
 
@@ -32,11 +32,11 @@ Take a few minutes to research the other rows.
 
 Load the schema into your database from the command line...
 
-```bash
+```zsh
 $ psql -d library < schema.sql
 ```
 
-> This command is also run from your Bash prompt -- not inside `psql`
+> This command is also run from your Zsh prompt -- not inside `psql`
 
 ## Loading A Seed File
 
@@ -44,7 +44,7 @@ We've provided a sql file that adds sample data into our `library` database.
 
 Load that in so we can practice interacting with our data. Make sure to also look at its contents and see how authors and books are related.
 
-```bash
+```zsh
 $ psql -d library < seed.sql
 ```
 
@@ -61,7 +61,7 @@ The most common SQL commands correspond to these 4 actions...
 
 First, enter into the library DB...
 
-```bash
+```zsh
 $ psql
 $ \c library
 ```
